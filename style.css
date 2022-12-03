@@ -5,7 +5,7 @@
     flex-direction: column;
     border: 0.5mm ridge rgb(173, 173, 234);
     padding: 20px;
-    background: white;
+    background: #bd8886;
 }
 .right{
     background-color: #bbf1b7;
