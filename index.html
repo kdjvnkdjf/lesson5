@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Астрономія</h2>
+        <p>Метеором називається явище, коли:</p>
+        <p><input type="radio" name="year" id="y1">Зорі падають на землю</p>
+        <p><input type="radio" name="year" id="y2">Каміння падає на землю</p>
+        <p><input type="radio" name="year" id="y3">Порошинки згорають у повітрі</p>
+        <p><input type="radio" name="year" id="y4">Блискавки спостерігаються у повітрі</p>
+    
+        <button id = "btn">Відповісти</button>
+        <p class="right hidden" id="right"> <b>Правильна відповідь.</b>  Явище, що виникає за згоряння в повітрі порошинок </p>
+        <div class="wrong_div hidden" id="wrong_div">
+            <p class="wrong" id="wrong"><b>Неправильна відповідь</b></p>
+            <button id = "btn1">Подивитись відповідь</button>
+        </div>
+    
+        <p id="answer" class = "hidden"><b>Правильна відповідь:</b> Порошинки згорають у повітрі </p>
+    </div>
+    <script src="js.js"></script>
+</html>
